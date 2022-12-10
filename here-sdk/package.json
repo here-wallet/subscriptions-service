@@ -1,0 +1,40 @@
+{
+  "name": "@here-wallet/subscriptions",
+  "version": "0.1.0",
+  "description": "HereWallet subscriptions sdk",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "type": "commonjs",
+  "homepage": "https://github.com/here-wallet/subscriptions-service",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/here-wallet/subscriptions-service.git"
+  },
+  "scripts": {
+    "example": "parcel example/index.html --open",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "sha1": "^1.1.1",
+    "uuid4": "2.0.3"
+  },
+  "peerDependencies": {
+    "near-api-js": "^0.44.2",
+    "borsh": "0.7.0",
+    "bn.js": "5.2.1"
+  },
+  "devDependencies": {
+    "@types/bn.js": "5.1.1",
+    "typescript": "4.4.4"
+  },
+  "keywords": [
+    "near",
+    "herewallet",
+    "web3"
+  ],
+  "bugs": {
+    "url": "https://github.com/here-wallet/subscriptions-service/issues"
+  },
+  "author": "here-wallet",
+  "license": "ISC"
+}
